@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div>
             <div style={{ backgroundImage: `url(${bgimg})` }} className="bg-cover bg-center h-[431px] w-[942px]">
-                <div className=" mt-37 flex justify-between">
+                <div className=" mt-37 flex justify-between items-center ">
                     <div>
                         <div className='flex gap-4 items-center'>
                             <div className='bg-black px-4 py-1'>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h4 className='text-black text-2xl font-medium'>Join Our Newsletter</h4>
+                        <h5 className='text-black text-2xl font-medium'>Join Our Newsletter</h5>
                         <form action="" className="relative mt-4">
                             <input
                                 type="email"
