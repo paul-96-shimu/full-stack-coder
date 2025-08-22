@@ -7,11 +7,11 @@ import bg1 from '../assets/arrrrow.png';
 import bg2 from '../assets/CTA2.svg';
 const Explore = () => {
     return (
-        <div className='bg-[#FFF] container mx-auto '>
+        <div className='bg-[#FFF]  mx-auto border-r-1 border-l-1  '>
 
 
 
-            <div className='flex items-center justify-between px-24 mt-20'>
+            <div className='flex items-center justify-between px-24 py-22   border-b-1'>
                 <h1 className='text-8xl font-normal    text-left  flex items-center justify-center
                               '>Explore My Top  <br />Creations    <img src={bg1} alt="" /></h1>
 

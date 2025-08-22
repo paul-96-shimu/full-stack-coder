@@ -5,9 +5,9 @@ import bgimg from '../assets/image 2544.png';
 import fb from '../assets/Facebook.svg';
 const Footer = () => {
     return (
-        <div className='container mx-auto'>
-            <div style={{ backgroundImage: `url(${bgimg})` }} className="bg-cover bg-center">
-                <div className=" mt-37 flex justify-between items-center ">
+        <div className=' mx-auto border-r-1 border-l-1'>
+            <div style={{ backgroundImage: `url(${bgimg})` }} className="bg-cover bg-center px-16 py-22">
+                <div className="  flex justify-between items-center ">
                     <div>
                         <div className='flex gap-4 items-center'>
                             <div className='bg-black px-4 py-1'>

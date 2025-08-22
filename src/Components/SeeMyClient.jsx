@@ -7,7 +7,7 @@ import allimg from '../assets/all logo.svg';
 
 const SeeMyClient = () => {
     return (
-        <div className='bg-[#2661FF] w-[1699px] h-[1100px] mt-20'>
+        <div className='bg-[#2661FF]   min-h-screen '>
 
             <div className='container mx-auto py-12 '>
 

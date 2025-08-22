@@ -2,6 +2,7 @@ import React from 'react';
 import bannerimg from '../assets/SHape.png';
 import bannerimg2 from '../assets/Vector (1).svg';
 import bannerimg3 from '../assets/Line Shape.png';
+import bannerimg5 from '../assets/Rectangle  black 3830.png';
 import bannerimg4 from '../assets/Bg Pattern.png';
 import star from '../assets/circle.png';
 import { FaArrowUp } from "react-icons/fa6";
@@ -9,9 +10,9 @@ import { FaArrowUp } from "react-icons/fa6";
 
 const Banner = () => {
     return (
-        <div>
+        <div className=''>
             <div
-                className="min-h-screen flex items-center relative overflow-hidden px-8 md:px-24 w"
+                className="min-h-screen flex items-center relative overflow-visible px-8 md:px-24 w  border"
                 style={{
                     backgroundImage: `url(${bannerimg})`,
                     backgroundRepeat: 'no-repeat',
@@ -21,7 +22,7 @@ const Banner = () => {
             >
                 {/* Left Text */}
                 <div className="z-10 text-left container mx-auto">
-                    <div className='flex items-baseline gap-17'>
+                    <div className='flex  gap-17'>
                         <h1 className="leading-none font-[Inter]">
                             <span className="text-[black] text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px] font-normal block">Full-Stack</span>
                             <span className="text-[#2661FF] text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px]  font-normal block">Coder &</span>
@@ -29,9 +30,11 @@ const Banner = () => {
                         </h1>
 
 
-                        <div className="  -rotate-45 mt-3">
-                            <img src={star} alt="" className='w-20' />
-                            LET’S <br /> <strong>ROCK & ROLL</strong>
+                        <div className="relative w-[315px] h-[283px] rounded-full  flex items-center justify-center ">
+                            <img src={star} alt="" className="absolute w-full h-full rounded-full object-cover" />
+                            <div className="absolute text-center text-black font-bold -rotate-45">
+                                LET’S <br /> <strong>ROCK & ROLL</strong>
+                            </div>
                         </div>
 
                     </div>
@@ -46,9 +49,9 @@ const Banner = () => {
                 {/* Oval Text (Let's Rock & Roll) */}
 
                 {/* Optional: dark card shape in bottom-right */}
-                <div className="absolute top-200 right-70 w-[300px] h-[300px] md:w-[450px] md:h-[500px] bg-black rounded-xl ">
-                    <img src={bannerimg3} alt="" />
-                    <img src={bannerimg2} alt="" className='w-20' />
+                <div className="-mb-200 -bottom-10 relative ">
+                  <img src={bannerimg5} alt="" className='w-[642px] h-[500px]' />
+                  <img src={bannerimg3} alt="" className='absolute top-40  w-[750px] h-[500px]' />
 
                 </div>
 
@@ -59,8 +62,8 @@ const Banner = () => {
             </div>
 
 
-            <div className='  mt-43 container mx-auto'>
-                <div style={{ backgroundImage: `url(${bannerimg4})` }} className="bg-cover bg-center w-[1681px] h-[645px]">
+            <div className='   min-h-screen  mx-auto  border-r-1 border-l-1 border-b-1'>
+                <div style={{ backgroundImage: `url(${bannerimg4})` }} className="bg-cover bg-center w-[1681px] h-[645px] px-15 py-36">
                     <h3 className='text-gray-400  text-6xl'>Hi, I’m</h3>
 
                     <h2 className='mb-22 text-[#000] text-[140px] font-medium'>Qlark Gil</h2>
@@ -101,7 +104,7 @@ const Banner = () => {
 
 
 
-                           
+
                         </div>
                     </div>
 
@@ -111,20 +114,20 @@ const Banner = () => {
             </div>
 
 
-            <div className=' flex justify-between items-center mt-20 container mx-auto'>
+            <div className='  flex justify-between items-center   border-r-1 border-l-1 border-b-1 px-44'>
 
                 <div>
                     <h2 className='text-black  text-[100px]'>1.9k+ </h2>
-                    <small className='text-gray-400'>Total Clients</small>
+                    <h5 className='text-gray-400 text-center'>Total Clients</h5>
                 </div>
                 <div>
                     <h2 className='text-black  text-[100px]'>1,320+</h2>
-                    <small className='text-gray-400'>Website Build</small>
+                    <h5 className='text-gray-400 text-center'>Website Build</h5>
                 </div>
 
                 <div>
                     <h2 className='text-black  text-[100px]'>07</h2>
-                    <small className='text-gray-400'>Award Winner</small>
+                    <h5 className='text-gray-400 text-center'>Award Winner</h5>
                 </div>
 
 

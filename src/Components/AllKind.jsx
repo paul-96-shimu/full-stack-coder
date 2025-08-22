@@ -10,7 +10,7 @@ import bg from '../assets/bg.png';
 
 const AllKind = () => {
     return (
-        <div className='mt-22 '>
+        <div className='py-22  border-r-1 border-l-1 border-b-1 '>
 
 
 
