@@ -7,7 +7,7 @@ import bg1 from '../assets/arrrrow.png';
 import bg2 from '../assets/CTA2.svg';
 const Explore = () => {
     return (
-        <div className='bg-[#FFF] '>
+        <div className='bg-[#FFF] container mx-auto '>
 
 
 

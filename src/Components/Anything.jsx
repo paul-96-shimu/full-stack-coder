@@ -6,7 +6,7 @@ import liner1 from '../assets/Line Shape3.png'
 
 const Anything = () => {
     return (
-        <div>
+        <div className=' container mx-auto pt-20 pb-24'>
             <div className='text-black text-8xl mt-26'>
                 <h1>Anything in Mind? <br />
                     Let's Talk</h1>
