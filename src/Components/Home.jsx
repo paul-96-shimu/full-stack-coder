@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 const Home = () => {
     return (
-        <div className='w-[1800px] mx-auto'> 
+        <div className='w-[1800px] mx-auto bg-[#FFF]'> 
           <Navber></Navber>
           <Banner></Banner>
           <AllKind></AllKind>

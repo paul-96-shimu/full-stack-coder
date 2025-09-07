@@ -5,23 +5,28 @@ import bg from '../assets/image 2520.png';
 import bg1 from '../assets/arrrrow.png';
 
 import bg2 from '../assets/CTA2.svg';
+import button from '../assets/button arrow.png';
 const Explore = () => {
     return (
         <div className='bg-[#FFF]  mx-auto border-r-1 border-l-1  '>
 
 
 
-            <div className='flex items-center justify-between px-24 py-22   border-b-1'>
-                <h1 className='text-8xl font-normal    text-left  flex items-center justify-center
-                              '>Explore My Top  <br />Creations    <img src={bg1} alt="" /></h1>
+            <div className='flex justify-between  items-center border-b-1 pl-[123px] pt-[85px] pb-[80px] pr-[73px]'>
+                <h1 className='text-8xl font-normal    text-left  
+                              '>Explore My Top  <br />Creations  <span className="inline-flex items-center justify-center"> <img src={bg1} alt="" className="  align-middle
+                              relative translate-y-8  w-[181px] h-[114px] " /></span>  </h1>
 
 
+                <button className=' bg-[#2661FF] text-white pl-[29px] pr-[58px] pt-[8px] pb-[14px] text-[20px]  inline-flex items-center gap-4'>Explore All <img src={button} alt="" className='w-[15px] h-[13p[]]' /></button>
 
 
-                <button className='btn bg-[#2661FF] text-white'>Explore All</button>
             </div>
+
+
+
             <div className='flex  items-center justify-center text-center mt-28 gap-12'>
-                <div>
+                <div> 
 
                     <h5 className='text-gray-400 text-left mb-4'>WordPress</h5>
                     <h2 className='font-medium  text-6xl text-left mb-22'>Website <br />
@@ -32,7 +37,7 @@ const Explore = () => {
 
 
 
-                    <img src={bg2} alt="" className='w-20' />
+                    <img src={bg2} alt="" className='w-[20]' />
 
                 </div>
 
@@ -40,7 +45,7 @@ const Explore = () => {
 
 
                 <div className='bg-[#F4F7FF] '>
-                    <img src={bg} alt="Background" className='' />
+                    <img src={bg} alt="Background" className='  ' />
                 </div>
             </div>
 
@@ -101,7 +106,7 @@ const Explore = () => {
 
 
 
-                <div className='bg-[#F4F7FF] '>
+                <div className='bg-[#F4F7FF] mb-20 '>
                     <img src={bg} alt="Background" className='' />
                 </div>
             </div>

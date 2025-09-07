@@ -4,6 +4,8 @@ import bannerimg2 from '../assets/Vector (1).svg';
 import bannerimg3 from '../assets/Line Shape.png';
 import bannerimg5 from '../assets/Rectangle  black 3830.png';
 import bannerimg4 from '../assets/Bg Pattern.png';
+import bluestar from '../assets/blueStar 1.png';
+import button from '../assets/button arrow.png';
 import star from '../assets/circle.png';
 import { FaArrowUp } from "react-icons/fa6";
 
@@ -12,7 +14,7 @@ const Banner = () => {
     return (
         <div className=''>
             <div
-                className="min-h-screen flex items-center relative overflow-visible px-8 md:px-24 w  border"
+                className="flex items-center relative  border  "
                 style={{
                     backgroundImage: `url(${bannerimg})`,
                     backgroundRepeat: 'no-repeat',
@@ -21,17 +23,32 @@ const Banner = () => {
                 }}
             >
                 {/* Left Text */}
-                <div className="z-10 text-left container mx-auto">
-                    <div className='flex  gap-17'>
-                        <h1 className="leading-none font-[Inter]">
-                            <span className="text-[black] text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px] font-normal block">Full-Stack</span>
-                            <span className="text-[#2661FF] text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px]  font-normal block">Coder &</span>
-                            <span className="text-black text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px]  font-normal   flex gap-6">more <img src={bannerimg2} alt="" className='w-20' /></span>
-                        </h1>
+                <div className="pt-[97px]   pb-[268px] pl-[73px]">
+                    <div className=' flex gap-10'>
+                        <div>
 
+                            <h1 className="leading-none font-[Inter]">
+                                {/* First line */}
+                                <span className="text-black text-[250px] inline-block">
+                                    Full&#8209;Stack
+                                </span>
+
+                                {/* Second line */}
+                                <span className="block text-[#2661FF] text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px] font-normal">
+                                    Coder &
+                                </span>
+
+                                {/* Third line */}
+                                <span className="inline-flex items-center gap-6 text-black text-[80px] md:text-[120px] lg:text-[160px] xl:text-[200px] font-normal">
+                                    more <img src={bannerimg2} alt="" className="w-20" />
+                                </span>
+                            </h1>
+
+
+                        </div>
 
                         <div className="relative w-[315px] h-[283px] rounded-full  flex items-center justify-center ">
-                            <img src={star} alt="" className="absolute w-full h-full rounded-full object-cover" />
+                            <img src={star} alt="" className="absolute  rounded-full object-cover" />
                             <div className="absolute text-center text-black font-bold -rotate-45">
                                 LET’S <br /> <strong>ROCK & ROLL</strong>
                             </div>
@@ -41,17 +58,19 @@ const Banner = () => {
 
 
                     {/* Button */}
-                    <button className="mt-6 px-6 py-3 bg-[#2661FF] text-xl text-white  rounded-md inline-flex items-center gap-2 hover:bg-blue-700 transition-all">
-                        Let’s Talk <FaArrowUp className="rotate-45" />
+
+
+                    <button className="mt-25 px-6 py-3 bg-[#2661FF] text-xl text-white  rounded-md inline-flex items-center gap-2 hover:bg-blue-700 transition-all">
+                        Let’s Talk <img src={ button} alt="" />
                     </button>
                 </div>
 
                 {/* Oval Text (Let's Rock & Roll) */}
 
                 {/* Optional: dark card shape in bottom-right */}
-                <div className="-mb-200 -bottom-10 relative ">
-                  <img src={bannerimg5} alt="" className='w-[642px] h-[500px]' />
-                  <img src={bannerimg3} alt="" className='absolute top-40  w-[750px] h-[500px]' />
+                <div className=" relative -left-[600px] -bottom-100 ">
+                    <img src={bannerimg5} alt="" className='w-full   min-w-[642px] ' />
+                    <img src={bannerimg3} alt="" className='absolute top-80  w-[750px] ' />
 
                 </div>
 
@@ -62,59 +81,103 @@ const Banner = () => {
             </div>
 
 
-            <div className='   min-h-screen  mx-auto  border-r-1 border-l-1 border-b-1'>
-                <div style={{ backgroundImage: `url(${bannerimg4})` }} className="bg-cover bg-center w-[1681px] h-[645px] px-15 py-36">
-                    <h3 className='text-gray-400  text-6xl'>Hi, I’m</h3>
+        <div
+  className="border-r border-l border-b bg-no-repeat bg-center bg-contain"
+  style={{
+    backgroundImage: `url(${bannerimg4})`,
+    backgroundSize: "cover", // পুরো div cover করবে
+  }}
+>
+  <div className="pl-[123px] pt-43">
+    <h3 className="text-gray-400 text-6xl">Hi, I’m</h3>
 
-                    <h2 className='mb-22 text-[#000] text-[140px] font-medium'>Qlark Gil</h2>
+    <h2 className="mb-22 text-[#000] text-[140px] font-medium">Qlark Gil</h2>
 
-                    <p className='text-5xl font-normal'><span className='text-[#000]'>I’m an </span> <span className='text-gray-400 underline underline-offset-1'> award winner</span>
-                        <span> creative developer with over</span> <span className='text-gray-400 underline underline-offset-1'> 6 years experience,  </span>
-                        <span>based in Amsterdam, the Capital of the Netherlands .</span></p>
+    <p className="text-5xl font-normal">
+      <span className="text-[#000]">I’m an </span>{" "}
+      <span className="text-gray-400 underline underline-offset-1">
+        award winner
+      </span>
+      <span> creative developer with over</span>{" "}
+      <span className="text-gray-400 underline underline-offset-1">
+        6 years <br /> experience,
+      </span>
+      <span>
+        based in Amsterdam, the Capital of the <br /> Netherlands .
+      </span>
+    </p>
 
-                    <div className='mt-20'>
-                        <h3> <small className='text-[#000] font-bold'>Follow Me</small></h3>
+    {/* Follow Me Section */}
+    <div className="mt-20">
+      <h3>Follow Me</h3>
+      <div className="flex justify-between">
+        {/* Social Links */}
+        <div className="flex gap-4 mt-6">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <h3
+              className="flex items-center justify-center 
+                w-12 h-12 text-black font-bold 
+                hover:bg-black hover:text-white 
+                rounded-full border"
+            >
+              Fb
+            </h3>
+          </a>
 
-                        <div className=''>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <h3
+              className="flex items-center justify-center 
+                w-12 h-12 text-black font-bold 
+                hover:bg-black hover:text-white 
+                rounded-full border"
+            >
+              In
+            </h3>
+          </a>
 
-                            <div className='flex gap-3 mt-6'>
+          <a href="https://behance.net" target="_blank" rel="noopener noreferrer">
+            <h3
+              className="flex items-center justify-center 
+                w-12 h-12 text-black font-bold 
+                hover:bg-black hover:text-white 
+                rounded-full border"
+            >
+              Be
+            </h3>
+          </a>
 
-                                <div className='bg-black border border-black rounded-full p-4 '>
-                                    <h3 className='text-white'>Fb</h3>
+          <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">
+            <h3
+              className="flex items-center justify-center 
+                w-12 h-12 text-black font-bold 
+                hover:bg-black hover:text-white 
+                rounded-full border"
+            >
+              Li
+            </h3>
+          </a>
+        </div>
 
-                                </div>
-                                <div className=' border border-black rounded-full p-4 '>
-                                    <h3 className='text-black'>in</h3>
-
-                                </div>
-                                <div className='border border-black rounded-full p-4  '>
-                                    <h3 className='text-black'>Be</h3>
-
-                                </div>
-                                <div className='border border-black rounded-full p-4   '>
-                                    <h3 className='text-black'>Li</h3>
-
-                                </div>
-
-
-
-
-                            </div>
-
-
-
-
-
-                        </div>
-                    </div>
-
-                </div>
+        {/* Blue star section */}
+        <div className="relative mb-27">
+          <img src={bluestar} alt="" className="w-[333px] h-[234px]" />
+          <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
+            <h3 className="text-white text-center mb-4 text-[24px]">I’M <br /> READY TO TALK</h3>
+         <img src={ button}alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-            </div>
 
 
-            <div className='  flex justify-between items-center   border-r-1 border-l-1 border-b-1 px-44'>
+
+
+{/* counter part */}
+            <div className='  flex justify-between items-center   border-r-1 border-l-1 border-b-1 px-44 py-20'>
 
                 <div>
                     <h2 className='text-black  text-[100px]'>1.9k+ </h2>

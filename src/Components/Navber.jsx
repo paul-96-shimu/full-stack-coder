@@ -4,7 +4,7 @@ import logo from '../assets/Logo.png'
 
 const Navber = () => {
     return (
-        <div className="navbar mb-30 bg-[#FFF]
+        <div className="navbar  bg-[#FFF] py-10
         ">
             <div className="navbar-start">
                 <div className="dropdown">

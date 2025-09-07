@@ -10,32 +10,26 @@ import bg from '../assets/bg.png';
 
 const AllKind = () => {
     return (
-        <div className='py-22  border-r-1 border-l-1 border-b-1 '>
+        <div className='  border-r-1 border-l-1 border-b-1  pt-25 '>
 
 
 
-            <h2 className='text-8xl font-normal text-left container mx-auto'>All kind of coding <br />solution.</h2>
+            <h2 className='text-8xl font-normal text-left container mx-auto pl-18'>All kind of coding <br />solution.</h2>
 
 
 
-            <div className="bg-cover bg-center mt-20"
+            <div className="bg-cover bg-center  "
 
                 style={{
                     backgroundImage: `url(${bg})`,
                     backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                   
+
+                    backgroundPosition: 'left bottom',
+                    backgroundSize: '340px auto', 
                 }}
 
 
             >
-
-
-
-
-
-
 
                 <div className='flex items-center justify-center gap-11 mt-19 container mx-auto px-12 py-12'>
 
