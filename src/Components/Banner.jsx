@@ -3,7 +3,7 @@ import bannerimg from '../assets/SHape.png';
 import bannerimg2 from '../assets/Vector (1).svg';
 import bannerimg3 from '../assets/Line Shape.png';
 import bannerimg5 from '../assets/Rectangle  black 3830.png';
-import bannerimg4 from '../assets/Bg Pattern.png';
+import bannerimg4 from '../assets/newbg.png';
 import bluestar from '../assets/blueStar 1.png';
 import button from '../assets/button arrow.png';
 import star from '../assets/circle.png';
@@ -23,7 +23,7 @@ const Banner = () => {
                 }}
             >
                 {/* Left Text */}
-                <div className="pt-[97px]   pb-[268px] pl-[73px]">
+                <div className="pt-[97px]   pb-[268px] pl-[73px] ">
                     <div className=' flex gap-10'>
                         <div>
 
@@ -85,10 +85,11 @@ const Banner = () => {
   className="border-r border-l border-b bg-no-repeat bg-center bg-contain"
   style={{
     backgroundImage: `url(${bannerimg4})`,
-    backgroundSize: "cover", // পুরো div cover করবে
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   }}
 >
-  <div className="pl-[123px] pt-43">
+  <div className="pl-[123px] pt-43 pr-[77px]">
     <h3 className="text-gray-400 text-6xl">Hi, I’m</h3>
 
     <h2 className="mb-22 text-[#000] text-[140px] font-medium">Qlark Gil</h2>
@@ -109,7 +110,7 @@ const Banner = () => {
 
     {/* Follow Me Section */}
     <div className="mt-20">
-      <h3>Follow Me</h3>
+      <h3 className="text-[20px]">Follow Me</h3>
       <div className="flex justify-between">
         {/* Social Links */}
         <div className="flex gap-4 mt-6">
@@ -159,7 +160,7 @@ const Banner = () => {
         </div>
 
         {/* Blue star section */}
-        <div className="relative mb-27">
+        <div className="relative mb-27 ">
           <img src={bluestar} alt="" className="w-[333px] h-[234px]" />
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
             <h3 className="text-white text-center mb-4 text-[24px]">I’M <br /> READY TO TALK</h3>
