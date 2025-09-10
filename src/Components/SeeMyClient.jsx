@@ -121,6 +121,7 @@ const SeeMyClient = () => {
                        <img src={marque3} alt="" className='mx-6' />
                        <img src={star} alt="" className='mx-6' />
                        <img src={marque4} alt="" className='mx-6' />
+                       <img src={star} alt="" className='mx-6' />
                    </Marquee>
             </div>
         </div>

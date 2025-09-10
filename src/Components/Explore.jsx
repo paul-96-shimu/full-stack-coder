@@ -5,7 +5,7 @@ import bg3 from '../assets/patarn.png';
 
 import bg1 from '../assets/arrrrow.png';
 
-import bg2 from '../assets/CTA2.svg';
+import bg2 from '../assets/111111ar.png';
 import button from '../assets/button arrow.png';
 const Explore = () => {
     return (
@@ -36,16 +36,17 @@ const Explore = () => {
                 <div className='flex  items-center  justify-between text-center mt-28 gap-12 border-b-1 pb-20 pl-[75px] pr-[75px]'>
                     <div>
 
-                        <h5 className='text-gray-400 text-left mb-4'>WordPress</h5>
-                        <h2 className='font-medium  text-6xl text-left mb-22'>Website <br />
+                        <h5 className='text-[rgba(0,0,0,0.40)] text-[24px] text-left mb-4'>WordPress</h5>
+                        <h2 className='font-medium  text-[64px] text-left mb-22'>Website <br />
                             WordPress Core <br />
                             Coding.
+
+
                         </h2>
 
-
-
-
-                        <img src={bg2} alt="" className='w-[20]' />
+                      <button className="mr-12 border rounded-full flex items-center justify-center pt-[19px] pb-[22px] pl-[40px] pr-[40px] hover:bg-black group">
+                            <img src={bg2} alt="" className="w-[24px] group-hover:invert transition-all duration-300" />
+                        </button>
 
                     </div>
 
@@ -74,16 +75,17 @@ const Explore = () => {
 
                     <div>
 
-                        <h5 className='text-gray-400 text-left mb-4'>Application Development</h5>
-                        <h2 className='font-medium  text-6xl text-left mb-22'>Mobile Application <br />
+                        <h5 className='text-[rgba(0,0,0,0.40)]  text-[24px]  text-left mb-4'>Application Development</h5>
+                        <h2 className='font-medium  text-[64px] text-left mb-22'>Mobile Application <br />
                             Design.
                         </h2>
 
 
 
 
-                        <img src={bg2} alt="" className='w-20' />
-
+                       <button className="mr-12 border rounded-full flex items-center justify-center pt-[19px] pb-[22px] pl-[40px] pr-[40px] hover:bg-black group">
+                            <img src={bg2} alt="" className="w-[24px] group-hover:invert transition-all duration-300" />
+                        </button>
                     </div>
 
 
@@ -99,17 +101,17 @@ const Explore = () => {
                 <div className='flex  items-center justify-between text-center mt-28 gap-12  pl-[75px] pr-[75px]'>
                     <div>
 
-                        <h5 className='text-gray-400 text-left mb-4'>Web Design</h5>
-                        <h2 className='font-medium  text-6xl text-left mb-22'>Figma to <br />
+                        <h5 className='text-[rgba(0,0,0,0.40)] text-[24px]  text-left mb-4'>Web Design</h5>
+                        <h2 className='font-medium  text-[64px] text-left mb-22'>Figma to <br />
                             html5 & Css3 <br />
                             Convert
                         </h2>
 
 
 
-
-                        <img src={bg2} alt="" className='w-20' />
-
+                        <button className="mr-12 border rounded-full flex items-center justify-center pt-[19px] pb-[22px] pl-[40px] pr-[40px] hover:bg-black group">
+                            <img src={bg2} alt="" className="w-[24px] group-hover:invert transition-all duration-300" />
+                        </button>
                     </div>
 
 

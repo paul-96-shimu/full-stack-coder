@@ -27,11 +27,11 @@ const Footer = () => {
                             <img src={logo} alt="Logo" />
                         </div>
 
-                        <h1 className="text-black text-6xl font-medium mt-12 text-left">
+                        <h1 className="text-black text-[64px] font-medium mt-12 text-left">
                             Today, improve your <br /> business with <br /> quality.
                         </h1>
 
-                        <h6 className="text-gray-500 text-left mt-10 mb-7">
+                        <h6 className="text-gray-500 text-left mt-10 mb-7 text-[24px]">
                             210 Qilo Stereet, California, <br />
                             Main OC, USA
                         </h6>
@@ -39,7 +39,7 @@ const Footer = () => {
 
                     {/* Right Side */}
                     <div>
-                        <h5 className="text-black text-2xl font-medium">Join Our Newsletter</h5>
+                        <h5 className="text-[#000] text-[24px] font-medium">Join Our Newsletter</h5>
                         <form action="" className="relative mt-4">
                             <input
                                 type="email"
@@ -73,14 +73,14 @@ const Footer = () => {
 
             <div className="  flex justify-between mt-15">
                 <p className="text-center ">
-                    &copy; <span className='text-black  text-[20px]'>2025 </span><span className='text-[rgba(0, 0, 0, 0.40)]  text-[20px]'>All Right Reserved. Design by</span>
-                     <span className='text-[rgba(0, 0, 0, 0.88)] text-[20px]'>CreativeGigs</span>
+                    &copy; <span className='text-black  text-[20px]'>2025 </span><span className='text-[rgba(0,0,0,0.40)]  text-[20px]'>All Right Reserved. Design by</span>
+                     <span className='text-[rgba(0,0,0,0.88)] text-[20px]'>CreativeGigs</span>
                 </p>
                 <ul className="flex gap-4 ">
                     <li><a href="#" className="text-black text-[20px] font-bold">About</a></li>
-                    <li><a href="#" className="text-[rgba(0, 0, 0, 0.40)] text-[20px]  font-bold">Work</a></li>
-                    <li><a href="#" className="text-[rgba(0, 0, 0, 0.40)] text-[20px]  font-bold">Blog</a></li>
-                    <li><a href="#" className="text-[rgba(0, 0, 0, 0.40)] text-[20px]  font-bold">Contact</a></li>
+                    <li><a href="#" className="text-[rgba(0,0,0,0.40)]  text-[20px]  font-bold">Work</a></li>
+                    <li><a href="#" className="text-[rgba(0,0,0,0.40)] text-[20px]  font-bold">Blog</a></li>
+                    <li><a href="#" className="text-[rgba(0,0,0,0.40)] text-[20px]  font-bold">Contact</a></li>
                 </ul>
             </div>
 
